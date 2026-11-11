@@ -10,7 +10,6 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup  # pip install beautifulsoup4
 from flask import Flask, jsonify, render_template_string, send_from_directory
 
-
 API = "https://gi.yatta.moe/api/v2"
 AMBR_RU = f"{API}/ru/avatar"
 ASSETS = "https://gi.yatta.moe/assets/UI"
